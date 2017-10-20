@@ -6,7 +6,8 @@
   - [ ] Create a `logo` 
   
 
-- # Comments #__Please mark your comments here below:_
+- # Comments #
+__Please mark your comments here below:_
 
 \|
 Site is good for now!
