@@ -3,12 +3,10 @@
 - # Tasks #
   - [ ] Create a `repository` for the `testProject1`
   - [x] Create a `README File` to save the small `originalMarkdownCheatSheet`
+  - [ ] Create a `logo` 
+  
 
-
-
-
-- # Comments #
-__Please mark your comments here below:__
+- # Comments #__Please mark your comments here below:_
 
 \|
 Site is good for now!
@@ -18,5 +16,4 @@ Site is good for now!
 
 
 
-\|
 # marcomorettim.github.io
