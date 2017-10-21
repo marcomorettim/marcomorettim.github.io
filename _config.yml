@@ -3,3 +3,5 @@ title: Projects by MM
 description: What is going on, and what is not
 source:      _jekyllSite
 destination: _deploy
+plugins:
+  - jekyll-sitemap
