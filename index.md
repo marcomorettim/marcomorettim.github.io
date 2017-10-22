@@ -1,6 +1,28 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
----
+
+## Welcome ## 
+# This site is under construction #
+
+We would be glad to see you soon again. 
+
+\|
+```
+Maybe in the meantime, 
+you can keep up with what's 
+going on with 
+our projects here:  
+
+```
+\|
+www.github.com/marcomorettim
+
+# projects: #
+`sql` 
+
+`d3` 
+
+`python` 
+
+`dax`
+
+
+`& many more` 
