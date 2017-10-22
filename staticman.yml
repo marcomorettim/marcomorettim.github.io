@@ -1,1 +1,5 @@
 
+reCaptcha:
+  enabled: true
+  siteKey: # "6LeXXTUUAAAAABhAbaA4GlPhGZEjEQsRxrnguRc_"
+  secret: # "P6LeXXTUUAAAAAIWPg35sDVgZJ339owM71zvc5tBk"
