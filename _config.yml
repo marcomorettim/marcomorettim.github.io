@@ -26,8 +26,11 @@ github_username:  marcomorettim
 markdown: kramdown
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin : "air"
+locale: en-GB
 plugins:
   - jekyll-feed
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
