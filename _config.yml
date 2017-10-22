@@ -21,8 +21,21 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://marcomorettim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "marcomorettim/marcomorettim"
 
-twitter_username: marcomorettim
-github_username:  marcomorettim
+social:
+  type:  Person # Person or Organization (defaults to Person)
+  name:  "Marco Moretti" # If the user or organization name differs from the site's name
+  links:
+    - "https://twitter.com/marcomorettim"
+    - "https://www.linkedin.com/in/marcomorettim"
+    - "https://www.github.com/in/marcomorettim"
+  author:
+  name   : "Marco Moretti"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "The website is a blog of Marco Moretti, collectig experiments projects and thoughts."
+  email  : marcomorettim@gmail.com
+  uri    : "https://marcomorettim.github.io"
+
+    
 
 # Build settings
 markdown: kramdown
@@ -31,12 +44,86 @@ minimal_mistakes_skin : "air"
 locale: en-GB
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+  
+gems:
+  - jemoji
 head_scripts:
   - https://code.jquery.com/jquery-3.2.1.min.js
   - /assets/js/your-custom-head-script.js
-
-
-
+teaser: /assets/images/500x300.png
+header:
+  teaser: /assets/images/my-awesome-post-teaser.jpg
+breadcrumbs: true  # disabled by default
+permalink: /:categories/:title/
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+paginate: 5
+paginate_path: /recent/page:num/
+timezone: Europe/Amsterdam
+# staticman.yml (defaults)
+comments:
+  allowedFields      : ["name", "email", "url", "message"]
+  branch             : "master"
+  commitMessage      : "New comment"
+  filename           : "comment-{@timestamp}"
+  format             : "yaml"
+  generatedFields:
+    date:
+      type           : "date"
+      options:
+        format       : "iso8601"
+  moderation         : true
+  path               : "/_data/comments/{options.slug}" (default)
+  requiredFields     : ["name", "email", "message"]
+  transforms:
+    email            : md5
+# _config.yml (defaults)
+repository  : "marcomorettim/marcomorettim"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+comments:
+  provider  : "staticman_v2"
+staticman:
+  branch    : "master"
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
+layout: splash
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
