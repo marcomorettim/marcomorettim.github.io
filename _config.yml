@@ -37,6 +37,45 @@ head_scripts:
 teaser: /assets/images/500x300.png
 header:
   teaser: /assets/images/my-awesome-post-teaser.jpg
+breadcrumbs: true  # disabled by default
+permalink: /:categories/:title/
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+    defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      comments: true
+# staticman.yml (defaults)
+comments:
+  allowedFields      : ["name", "email", "url", "message"]
+  branch             : "master"
+  commitMessage      : "New comment"
+  filename           : "comment-{@timestamp}"
+  format             : "yaml"
+  generatedFields:
+    date:
+      type           : "date"
+      options:
+        format       : "iso8601"
+  moderation         : true
+  path               : "/_data/comments/{options.slug}" (default)
+  requiredFields     : ["name", "email", "message"]
+  transforms:
+    email            : md5
+# _config.yml (defaults)
+repository  : "marcomorettim/marcomorettim"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+comments:
+  provider  : "staticman_v2"
+staticman:
+  branch    : "master"
 
 
 # Exclude from processing.
