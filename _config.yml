@@ -58,14 +58,20 @@ defaults:
       path: ""
       type: posts
     values:
+      layout: single
+      author_profile: true
       read_time: true
-    defaults:
-  # _posts
+      comments: true
+      share: true
+      related: true
+defaults:
+  # _pages
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
-      comments: true
+      layout: single
+paginate: 5
 # staticman.yml (defaults)
 comments:
   allowedFields      : ["name", "email", "url", "message"]
