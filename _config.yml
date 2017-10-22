@@ -44,6 +44,12 @@ minimal_mistakes_skin : "air"
 locale: en-GB
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+  
+gems:
+  - jemoji
 head_scripts:
   - https://code.jquery.com/jquery-3.2.1.min.js
   - /assets/js/your-custom-head-script.js
@@ -72,6 +78,8 @@ defaults:
     values:
       layout: single
 paginate: 5
+paginate_path: /recent/page:num/
+timezone: Europe/Amsterdam
 # staticman.yml (defaults)
 comments:
   allowedFields      : ["name", "email", "url", "message"]
