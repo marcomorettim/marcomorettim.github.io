@@ -4,10 +4,4 @@ email: marcomorettim@gmail.com
 description: "The website is a blog of Marco Moretti, collectig experiments projects and thoughts."
 theme: minimal
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-paginate
-  
-gems:
-  - jemoji
