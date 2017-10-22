@@ -31,6 +31,9 @@ minimal_mistakes_skin : "air"
 locale: en-GB
 plugins:
   - jekyll-feed
+head_scripts:
+  - https://code.jquery.com/jquery-3.2.1.min.js
+  - /assets/js/your-custom-head-script.js
 
 
 
