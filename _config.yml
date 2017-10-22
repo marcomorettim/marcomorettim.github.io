@@ -123,7 +123,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development  # disable compression in dev environment
-
+layout: splash
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
