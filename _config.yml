@@ -21,8 +21,21 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://marcomorettim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "marcomorettim/marcomorettim"
 
-twitter_username: marcomorettim
-github_username:  marcomorettim
+social:
+  type:  Person # Person or Organization (defaults to Person)
+  name:  "Marco Moretti" # If the user or organization name differs from the site's name
+  links:
+    - "https://twitter.com/marcomorettim"
+    - "https://www.linkedin.com/in/marcomorettim"
+    - "https://www.github.com/in/marcomorettim"
+  author:
+  name   : "Marco Moretti"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "The website is a blog of Marco Moretti, collectig experiments projects and thoughts."
+  email  : marcomorettim@gmail.com
+  uri    : "https://marcomorettim.github.io"
+
+    
 
 # Build settings
 markdown: kramdown
