@@ -1,8 +1,7 @@
 
 title: Projects by MarcomorettiM
 email: marcomorettim@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  "The website is a blog of Marco Moretti, collectig experiments projects and thoughts."
+description: "The website is a blog of Marco Moretti, collectig experiments projects and thoughts."
 plugins:
   - jekyll-feed
   - jekyll-sitemap
