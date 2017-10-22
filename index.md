@@ -15,6 +15,13 @@ our projects here:
 www.github.com/marcomorettim
 
 # projects: #
-`sql` `d3` `python` `dax`
+`sql` 
+
+`d3` 
+
+`python` 
+
+`dax`
+
 
 `& many more` 
