@@ -1,19 +1,40 @@
-* {
-  box-sizing: border-box; }
+$screen-xs-min: 414px;
+$screen-sm-min: 768px;
+$screen-md-min: 960px;
+$screen-lg-min: 1040px;
+$screen-xl-min: 1440px;
+$screen-xxl-min: 1640px;
 
-html, body {
-  font-size: 10px;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-  line-height: 150%; }
+@mixin breakpoint($class) {
+  @if $class == mobile-only {
+    @media (max-width: #{$screen-sm-min} - 1) { @content; }
+  }
 
-div {
-  height: 100%; }
+  @else if $class == xs {
+    @media (min-width: #{$screen-xs-min}) { @content; }
+  }
 
-canvas {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0; }
+  @else if $class == sm {
+    @media (min-width: #{$screen-sm-min}) { @content; }
+  }
+
+  @else if $class == md {
+    @media (min-width: #{$screen-md-min}) { @content; }
+  }
+
+  @else if $class == lg {
+    @media (min-width: #{$screen-lg-min}) { @content; }
+  }
+
+  @else if $class == xl {
+    @media (min-width: #{$screen-xl-min}) { @content; }
+  }
+
+  @else if $class == xxl {
+    @media (min-width: #{$screen-xxl-min}) { @content; }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: mobile-only, sm, md, lg";
+  }
+}
