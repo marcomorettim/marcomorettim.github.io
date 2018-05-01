@@ -1,0 +1,59 @@
+/** FONTS
+font-family: 'Poppins', sans-serif;
+font-family: 'Slabo 13px', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Amiko', sans-serif;
+**/
+
+
+
+
+.container {
+  ;
+}
+
+
+
+/** Content formatting **/
+
+
+.Heading {
+  background: #efd50b;
+}
+
+.Titles {
+  font-family: 'Poppins', sans-serif;
+  background: yellow;
+}
+
+.ShoutItOut {
+  color: #008C8C;
+  background: #f2f2f2; 
+  
+}
+
+.CallOut {
+  font-family: 'Roboto Mono', monospace;
+  justify-content: end;
+}
+
+.Subtitle {
+  font-family: 'Slabo 13px', serif;
+  
+}
+
+.Text {
+  font-family: 'Amiko', sans-serif;
+   background: white;
+}
+
+.Subtext {
+  font-family: 'Amiko', sans-serif;
+   background: dark grey;
+   color: white;
+}
+
+.Notes {
+  font-family: 'Roboto Mono', monospace;
+  
+}
