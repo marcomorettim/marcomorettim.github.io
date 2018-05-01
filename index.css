@@ -57,3 +57,9 @@ font-family: 'Amiko', sans-serif;
   font-family: 'Roboto Mono', monospace;
   
 }
+
+.ul {
+    border-left: 5px grey;
+    list-style-type: none;
+    padding: 10px 20px;
+}
