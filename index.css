@@ -136,11 +136,12 @@ font-family: 'Amiko', sans-serif;
   
 }
 
-.ideaIcon {
+.twitter-timeline {
   
   height: auto; 
     width: auto; 
     max-width: 300px; 
     max-height: 300px;
+    font-family: 'Amiko', sans-serif;
   
 }
