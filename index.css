@@ -108,3 +108,39 @@ font-family: 'Amiko', sans-serif;
   
 }
 
+.fa-male {
+    padding: 10px;
+    font-size: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: ;
+    color: #008C8C;
+
+  
+}
+
+.fa-expand
+{
+    padding: px;
+    font-size: 200%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #008C8C;
+
+  
+}
+
+.ideaIcon {
+  
+  height: auto; 
+    width: auto; 
+    max-width: 30px; 
+    max-height: 30px;
+  
+}
