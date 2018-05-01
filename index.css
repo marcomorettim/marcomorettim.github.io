@@ -8,7 +8,7 @@ font-family: 'Amiko', sans-serif;
 
 
 
-.container {
+.container-fluid {
   ;
 }
 
@@ -63,3 +63,44 @@ font-family: 'Amiko', sans-serif;
     list-style-type: none;
     padding: 10px 20px;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.85;
+}
+
+.fa-medium {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #efd50b;
+
+  
+}
+
+.fa-free-code-camp {
+    padding: 5px;
+    font-size: auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: green;
+    color: white;
+
+  
+}
+
