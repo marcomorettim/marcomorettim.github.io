@@ -59,7 +59,7 @@ font-family: 'Amiko', sans-serif;
 }
 
 .ul {
-    border-left: 5px grey;
+    border-left: 5px solid #dbdbdb;
     list-style-type: none;
     padding: 10px 20px;
 }
